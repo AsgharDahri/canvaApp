@@ -10,22 +10,6 @@ A collaborative real-time canvas application built with React, Socket.io, and Ko
 - **Live Synchronization**: All changes are broadcasted to all connected clients
 - **Connection Status**: Visual indicator of socket connection status
 
-## Technology Stack
-
-### Frontend
-- React.js with TypeScript support
-- React Konva for canvas manipulation
-- Socket.io-client for real-time communication
-- Zustand for state management
-- Tailwind CSS for styling
-
-### Backend
-- Node.js with Express
-- Socket.io for WebSocket communication
-- CORS support for cross-origin requests
-
-## Setup Instructions
-
 ### Prerequisites
 - Node.js (v14 or higher)
 - npm or yarn
@@ -63,19 +47,6 @@ A collaborative real-time canvas application built with React, Socket.io, and Ko
 3. **Open Multiple Browser Tabs**
    - Open `http://localhost:3000` in multiple browser tabs
    - Test real-time collaboration by adding and moving rectangles
-
-## Usage
-
-1. **Adding Rectangles**: Click the "Add Rectangle" button to create new rectangles with random colors and positions
-2. **Moving Rectangles**: Drag any rectangle to move it - changes will be synchronized across all connected clients
-3. **Connection Status**: The green/red indicator shows the connection status to the server
-
-## Real-time Features
-
-- **Rectangle Creation**: New rectangles appear on all connected clients immediately
-- **Position Updates**: Rectangle movements are synchronized in real-time
-- **Multi-client Support**: Handle multiple concurrent users seamlessly
-- **Connection Handling**: Graceful handling of connection/disconnection events
 
 ## Project Structure
 
