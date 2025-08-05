@@ -8,7 +8,12 @@ A collaborative real-time canvas application built with React, Socket.io, and Ko
 - **Dynamic Rectangle Creation**: Add rectangles with random colors and positions
 - **Drag & Drop**: Move rectangles with real-time position updates across all clients
 - **Live Synchronization**: All changes are broadcasted to all connected clients
+## Features
 - **Connection Status**: Visual indicator of socket connection status
+- **User Connection status**: Visual indicator of user being online
+- **User Meta Data**: Display of user socket id, name
+- **Display Moving Name**: Showing name when user moving box
+- **Rename User Name**: Ability to change user name
 
 ### Prerequisites
 - Node.js (v14 or higher)
