@@ -17,6 +17,7 @@ A collaborative real-time canvas application built with React, Socket.io, and Ko
 ## Known Issue
 - **Double User Rendering**: One user showing twice in user list
 
+## UI Image
 <img width="1915" height="907" alt="image" src="https://github.com/user-attachments/assets/4c663651-6746-46cc-9ee5-c93fd8a76fb6" />
 
 ### Prerequisites
